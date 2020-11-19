@@ -1,0 +1,18 @@
+@inject StateContainer stateContainer
+
+<div class="list-container">
+  <Virtualize Items=@stateContainer.items Context=item>
+    <ListItem item=@item />
+  </Virtualize>
+</div>
+
+@code {
+  protected override void OnInitialized()
+  {
+    stateContainer.OnChange += StateHasChanged;
+  }
+  public void Dispose()
+  {
+    stateContainer.OnChange -= StateHasChanged;
+  }
+}

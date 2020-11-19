@@ -1,0 +1,29 @@
+@inject StateContainer stateContainer
+
+<div class="list-item-container">
+  <div class="list-item-title">@item.title</div>
+  <span class=@(item.content == null ? "list-item-content" : "list-item-content list-item-no-content")>
+    @(@item.content ??= "NO CONTENT")
+  </span>
+  <span class="list-item-remove" @onclick="handleRemove">
+    x
+  </span>
+</div>
+
+@code {
+  [Parameter]
+  public Item item { get; set; }
+
+  protected override void OnInitialized()
+  {
+    stateContainer.OnChange += StateHasChanged;
+  }
+  private void handleRemove()
+  {
+    stateContainer.removeItem(item.id);
+  }
+  public void Dispose()
+  {
+    stateContainer.OnChange -= StateHasChanged;
+  }
+}

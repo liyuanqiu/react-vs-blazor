@@ -1,0 +1,4 @@
+bin/Debug
+bin/Release/net5.0/*
+!bin/Release/net5.0/publish
+obj

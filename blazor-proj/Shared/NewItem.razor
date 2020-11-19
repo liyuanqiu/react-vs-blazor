@@ -1,0 +1,25 @@
+@inject StateContainer stateContainer
+
+<div>
+  <input placeholder="Title" @bind="title" />
+  <input placeholder="Content" @bind="content" />
+  <button @onclick="handleCreate">Create</button>
+</div>
+
+@code {
+  private string title;
+  private string content;
+
+  protected override void OnInitialized()
+  {
+    stateContainer.OnChange += StateHasChanged;
+  }
+  private void handleCreate()
+  {
+    stateContainer.addItem(title, content);
+  }
+  public void Dispose()
+  {
+    stateContainer.OnChange -= StateHasChanged;
+  }
+}
