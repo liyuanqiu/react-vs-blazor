@@ -3,7 +3,7 @@
   "config": [ ],
   "debugBuild": false,
   "entryAssembly": "blazor-proj",
-  "icuDataMode": 0,
+  "icuDataMode": 2,
   "linkerEnabled": true,
   "resources": {
     "assembly": {
@@ -43,17 +43,12 @@
       "System.Runtime.InteropServices.RuntimeInformation.dll": "sha256-WZUitHt7Lx43l9GbO+\/x1PRr\/87l96ASeAuIXeD8ccI=",
       "System.Text.Encodings.Web.dll": "sha256-p+w4VfOQe4xpDeMVUmqzR+TJIhbDwykCrATzc5\/TVUM=",
       "System.Text.Json.dll": "sha256-idQFMxnRmH6zN64k4ZVOq\/VHdFlMkU4gC+ajxyDq0bU=",
-      "System.Private.CoreLib.dll": "sha256-ZEyPfVjCPW6b1NeU7TO6hZe\/+rlfNq9NlI6nctFZ6EQ="
+      "System.Private.CoreLib.dll": "sha256-B\/csBTHvcT861AQPtds5tuyoxZsi7QFF1Up8GFLgSao="
     },
     "lazyAssembly": null,
     "pdb": null,
     "runtime": {
-      "dotnet.timezones.blat": "sha256-2ldEe2K8ARFKSIBsv+Hr3iNQzq9qh1H\/dwdu2r+AIyY=",
       "dotnet.wasm": "sha256-XmG1o3XoL4Dv4DjPhf+gJzrOdCMk+8d4f30sHkRIlzA=",
-      "icudt.dat": "sha256-m7NyeXyxM+CL04jr9ui1Z6pVfMWwhHusuz5qNZWpAwA=",
-      "icudt_CJK.dat": "sha256-91bygK5voY9lG5wxP0\/uj7uH5xljF9u7iWnSldT1Z\/g=",
-      "icudt_EFIGS.dat": "sha256-DPfeOLph83b2rdx40cKxIBcfVZ8abTWAFq+RBQMxGw0=",
-      "icudt_no_CJK.dat": "sha256-oM7Z6aN9jHmCYqDMCBwFgFAYAGgsH1jLC\/Z6DYeVmmk=",
       "dotnet.5.0.0.js": "sha256-rip887O\/MzF0Xf3GXtIvfySYu+t66+HDS8TyLMVM1Ss="
     },
     "satelliteResources": null
