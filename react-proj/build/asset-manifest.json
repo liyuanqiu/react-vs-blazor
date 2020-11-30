@@ -8,8 +8,18 @@
     "static/js/2.7c942d7d.chunk.js": "/react-todo/static/js/2.7c942d7d.chunk.js",
     "static/js/2.7c942d7d.chunk.js.map": "/react-todo/static/js/2.7c942d7d.chunk.js.map",
     "index.html": "/react-todo/index.html",
+    "index.html.br": "/react-todo/index.html.br",
+    "static/css/main.c0a41348.chunk.css.br": "/react-todo/static/css/main.c0a41348.chunk.css.br",
     "static/css/main.c0a41348.chunk.css.map": "/react-todo/static/css/main.c0a41348.chunk.css.map",
-    "static/js/2.7c942d7d.chunk.js.LICENSE.txt": "/react-todo/static/js/2.7c942d7d.chunk.js.LICENSE.txt"
+    "static/css/main.c0a41348.chunk.css.map.br": "/react-todo/static/css/main.c0a41348.chunk.css.map.br",
+    "static/js/2.7c942d7d.chunk.js.LICENSE.txt": "/react-todo/static/js/2.7c942d7d.chunk.js.LICENSE.txt",
+    "static/js/2.7c942d7d.chunk.js.LICENSE.txt.br": "/react-todo/static/js/2.7c942d7d.chunk.js.LICENSE.txt.br",
+    "static/js/2.7c942d7d.chunk.js.br": "/react-todo/static/js/2.7c942d7d.chunk.js.br",
+    "static/js/2.7c942d7d.chunk.js.map.br": "/react-todo/static/js/2.7c942d7d.chunk.js.map.br",
+    "static/js/main.4ef614b5.chunk.js.br": "/react-todo/static/js/main.4ef614b5.chunk.js.br",
+    "static/js/main.4ef614b5.chunk.js.map.br": "/react-todo/static/js/main.4ef614b5.chunk.js.map.br",
+    "static/js/runtime-main.84a79a50.js.br": "/react-todo/static/js/runtime-main.84a79a50.js.br",
+    "static/js/runtime-main.84a79a50.js.map.br": "/react-todo/static/js/runtime-main.84a79a50.js.map.br"
   },
   "entrypoints": [
     "static/js/runtime-main.84a79a50.js",

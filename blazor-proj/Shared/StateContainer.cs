@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 public class StateContainer
 {
@@ -32,7 +31,14 @@ public class StateContainer
 
   public void removeItem(int id)
   {
-    items = new List<Item>(items.Where(item => item.id != id));
+    foreach (var item in items)
+    {
+      if (item.id == id)
+      {
+        items.Remove(item);
+        break;
+      }
+    }
     NotifyStateChanged();
   }
 
